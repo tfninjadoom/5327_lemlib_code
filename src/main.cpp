@@ -228,6 +228,7 @@ void tuned_skills(){
     chassis.waitUntilDist(100000);
     //move towards the ends
     chassis.moveTo(85, 45, 170, 1200, false, true, 40, 0.4, 90);
+
     chassis.turnTo(27, 60, 700, false, false);
     
     chassis.moveTo(88, 0, 0, 1200, false, false, 40, 0.6);
